@@ -29,7 +29,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 	<?php
 		echo $this->Html->meta('icon');
-    	echo $this->fetch('meta');
+                echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
         
@@ -46,20 +46,20 @@
 		   
 		    	    <?php echo $this->element('header_nav');?>
      
-	      </div>
-	 </div>
-	 <header id="overview" class="jumbotron subhead"></header>
-	 
-	  <div class="container-fluid">
+                    </div>
+    </div>
+    
+
+    <div style="padding-top:60px;" class="container-fluid">
 	  
-		   <div class="row-fluid">
+	   <div class="row-fluid">
 	  	<!--Body content-->
-					<?php echo $this->Session->flash(); ?>
-					<?php echo $this->fetch('content'); ?>
-		   
-		   </div>			
-	 </div>	   
-   <?php  echo $this->Js->writeBuffer(); ?>
+ 		<?php echo $this->Session->flash(); ?>
+         	<?php echo $this->fetch('content'); ?>
+	   </div>			
+ </div>	   
+
+ <?php  echo $this->Js->writeBuffer(); ?>
     
 </body>
 </html>

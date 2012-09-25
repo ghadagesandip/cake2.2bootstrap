@@ -23,7 +23,7 @@
 /**
  *  Get Cake's root directory
  */
-echo "sa";exit;
+
 	define('APP_DIR', 'app');
 	define('DS', DIRECTORY_SEPARATOR);
 	define('ROOT', dirname(__FILE__));

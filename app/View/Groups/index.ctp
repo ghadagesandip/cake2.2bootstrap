@@ -1,7 +1,7 @@
  
-<div class="hero-unit">	
+
   
-	 <div class="span2">
+	 <div class=" span2 ">
 	<!--Sidebar content-->
 	   <h3><?php echo __('Actions'); ?></h3>
 		<ul>
@@ -9,18 +9,18 @@
 		</ul>
 	</div>
 
-	<div class="span10">
+	<div class=" span10">
 	
-	    <div class="groups index">
+	    <div >
 			<h2><?php echo __('Groups'); ?></h2>
-			<table class="table" cellpadding="0" cellspacing="0">
+			<table class="table table-hover" cellpadding="0" cellspacing="0">
 				<tr>
 						<th><?php echo $this->Paginator->sort('id'); ?></th>
 						<th><?php echo $this->Paginator->sort('group_name'); ?></th>
 						<th><?php echo $this->Paginator->sort('slug'); ?></th>
 						<th><?php echo $this->Paginator->sort('created'); ?></th>
 						<th><?php echo $this->Paginator->sort('modified'); ?></th>
-						<th class="actions"><?php echo __('Actions'); ?></th>
+						<th ><?php echo __('Actions'); ?></th>
 				</tr>
 				<?php
 				foreach ($groups as $group): ?>
@@ -48,7 +48,7 @@
 				?>
 			 </p>
 		
-			 <div class="paging">
+			 <div >
 				<?php
 					echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
 					echo $this->Paginator->numbers(array('separator' => ''));
@@ -60,4 +60,3 @@
 		
 	</div>
 
-</div>
