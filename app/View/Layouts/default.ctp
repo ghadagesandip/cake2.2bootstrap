@@ -34,13 +34,13 @@
 		echo $this->fetch('script');
         
 		echo $this->Html->css(array('bootstrap','bootstrap-responsive'));
-		echo $this->Html->script(array('jquery','jquery.validate','bootstrap.min'));
+		echo $this->Html->script(array('jquery','jquery.validate','bootstrap.min','bootstrap-dropdown','bootstrap-tooltip'));
 	?>
 </head>
 
 <body>
 	  
-     <div class="container">
+     <div class="container-fluid">
 	  
 		   <div class="row-fluid">
 		   
@@ -54,9 +54,13 @@
 	  
 	   <div class="row-fluid">
 	  	<!--Body content-->
- 		<?php echo $this->Session->flash(); ?>
-         	<?php echo $this->fetch('content'); ?>
-	   </div>			
+                 <div class="span10 offset2" style="text-align:center;">
+ 		   <?php echo $this->Session->flash(); ?>
+                 </div>
+           </div>
+           <div class="row-fluid">
+                	<?php echo $this->fetch('content'); ?>
+           </div>
  </div>	   
 
  <?php  echo $this->Js->writeBuffer(); ?>

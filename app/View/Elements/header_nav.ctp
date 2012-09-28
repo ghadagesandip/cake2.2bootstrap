@@ -9,7 +9,7 @@
               <span class="icon-bar"></span>
           </a>
          <div class="nav-collapse collapse">
-            <ul class="nav">
+            <ul class="nav ">
               <li class="active">
                  <?php echo $this->Html->link('Dashboard',array('controller' => 'Dashboards', 'action' => 'index'));?>
               </li>

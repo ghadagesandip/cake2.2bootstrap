@@ -65,13 +65,7 @@ class GroupsController extends AppController {
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Group->save($this->request->data)) {
-				$email = new CakeEmail();
-				$email->config('gmail');
-				$email->reset();
-				$email->from(array('me@example.com' => 'My Site1'));
-				$email->to('ghadagesandip@gmail.com');
-				$email->subject('About');
-				$email->send('My messages');
+				
 				$this->Session->setFlash(__('The group has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {

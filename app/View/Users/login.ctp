@@ -1,7 +1,7 @@
 
- <div class="hero-unit">
+ 
        
-		<?php echo $this->Form->create('User'); ?>
+		<?php echo $this->Form->create('User',array('inputDefaults'=>array('class'=>'input-medium'))); ?>
 		    <fieldset>
 		        <legend><?php echo __('Login here'); ?></legend>
 		        
@@ -29,7 +29,6 @@
   
 
 
-</div>
  
 
    

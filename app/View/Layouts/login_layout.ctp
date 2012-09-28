@@ -26,21 +26,23 @@
 
 		<?php echo $title_for_layout; ?>
 	</title>
-	 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 
 	<?php
 		echo $this->Html->meta('icon');
-    	echo $this->fetch('meta');
+                
 		echo $this->fetch('css');
 		echo $this->fetch('script');
-		echo $this->Html->css(array('bootstrap'));
+		echo $this->Html->css(array('bootstrap','bootstrap-responsive'));
 		echo $this->Html->script(array('jquery','jquery.validate','bootstrap.min'));
 	?>
 </head>
 <body>
 	  <div class="container">
 		<?php //echo $this->Session->flash(); ?>
-		<?php echo $this->fetch('content'); ?>
+                <div class="row-fluid">
+		   <?php echo $this->fetch('content'); ?>
+                </div>
 	   
      </div>
    <?php  echo $this->Js->writeBuffer(); ?>
