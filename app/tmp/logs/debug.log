@@ -72,3 +72,41 @@ Sandip
 2012-10-16 08:07:42 Debug: permission: actionUrl-users/dashboard
 2012-10-16 08:07:44 Debug: permission: actionUrl-departments/index
 2012-10-16 08:07:45 Debug: permission: actionUrl-posts/index
+2012-10-16 08:13:56 Debug: permission: actionUrl-departments/index
+2012-10-16 08:13:56 Debug: permission: actionUrl-departments/index
+2012-10-16 08:13:57 Debug: permission: actionUrl-posts/index
+2012-10-16 08:13:59 Debug: permission: actionUrl-users/dashboard
+2012-10-16 08:14:06 Debug: permission: actionUrl-departments/index
+2012-10-16 08:14:07 Debug: permission: actionUrl-posts/index
+2012-10-16 08:14:08 Debug: permission: actionUrl-departments/index
+2012-10-16 08:14:24 Debug: permission: actionUrl-departments/index
+2012-10-16 08:14:24 Debug: permission: actionUrl-departments/index
+2012-10-16 08:14:25 Debug: permission: actionUrl-posts/index
+2012-10-16 08:14:26 Debug: permission: actionUrl-departments/index
+2012-10-16 08:16:59 Debug: Array
+(
+    [headers] => From: gmail <ghadagesandip@gmail.com>
+To: sandip.ghadge@wwindia.com
+X-Mailer: CakePHP Email
+Date: Tue, 16 Oct 2012 08:16:58 -0400
+Message-ID: <507d503a07f04863996904c8792863f0@127.0.0.1>
+Subject: Email Verification Mail
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+    [message] => Hi sandip, Click the link below to complete your registration 
+
+ http://127.0.0.1/cake2.2bootstrap/userVerification?ident=4&activate=268342509ac17aa7bfa966d766fe1263
+
+
+)
+
+2012-10-16 08:17:44 Debug: Could not send registration email to userid-4
+2012-10-16 08:17:51 Debug: permission: actionUrl-departments/index
+2012-10-16 08:20:29 Debug: permission: actionUrl-departments/index
+2012-10-16 08:20:31 Debug: permission: actionUrl-departments/index
+2012-10-16 08:20:36 Debug: permission: actionUrl-departments/index
+2012-10-16 08:20:40 Debug: permission: actionUrl-departments/index
+2012-10-16 08:21:53 Debug: permission: actionUrl-departments/index
+2012-10-16 08:23:33 Debug: permission: actionUrl-users/dashboard
+2012-10-16 08:23:33 Debug: permission: actionUrl-users/dashboard

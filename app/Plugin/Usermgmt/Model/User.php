@@ -226,7 +226,7 @@ class User extends UserMgmtAppModel {
 	public function sendVerificationMail($user) {
 		$userId=$user['User']['id'];
 		$email = new CakeEmail();
-                
+                $email->config('gmail');
 		$fromConfig = EMAIL_FROM_ADDRESS;
 		$fromNameConfig = EMAIL_FROM_NAME;
 		$email->from(array( $fromConfig => $fromNameConfig));
