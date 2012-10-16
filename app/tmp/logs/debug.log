@@ -1,0 +1,74 @@
+2012-10-16 04:09:28 Debug: permission: actionUrl-Posts/index
+2012-10-16 04:12:15 Debug: permission: actionUrl-posts/index
+2012-10-16 04:12:45 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 04:12:45 Debug: permission: actionUrl-Groups/index
+2012-10-16 04:12:45 Debug: permission: actionUrl-Groups/index
+2012-10-16 04:12:47 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 04:12:48 Debug: permission: actionUrl-Groups/index
+2012-10-16 04:12:49 Debug: permission: actionUrl-Users/index
+2012-10-16 04:15:30 Debug: Could not send verification email to userid-2
+2012-10-16 04:16:20 Debug: Could not send verification email to userid-3
+2012-10-16 04:16:33 Debug: permission: actionUrl-Groups/index
+2012-10-16 04:16:34 Debug: permission: actionUrl-Users/index
+2012-10-16 05:34:31 Debug: permission: actionUrl-Users/index
+2012-10-16 06:30:20 Debug: permission: actionUrl-users/index
+2012-10-16 06:33:39 Debug: permission: actionUrl-Users/index
+2012-10-16 06:33:39 Debug: permission: actionUrl-Users/index
+2012-10-16 06:33:40 Debug: permission: actionUrl-Groups/index
+2012-10-16 06:33:42 Debug: permission: actionUrl-Groups/index
+2012-10-16 06:33:42 Debug: permission: actionUrl-Groups/index
+2012-10-16 06:33:44 Debug: permission: actionUrl-Users/index
+2012-10-16 06:33:55 Debug: permission: actionUrl-Categories/index
+2012-10-16 06:33:58 Debug: permission: actionUrl-Users/index
+2012-10-16 06:33:58 Debug: permission: actionUrl-Users/index
+2012-10-16 06:33:59 Debug: permission: actionUrl-Users/index
+2012-10-16 06:34:00 Debug: permission: actionUrl-Groups/index
+2012-10-16 06:34:00 Debug: permission: actionUrl-Groups/index
+2012-10-16 06:34:00 Debug: permission: actionUrl-Groups/index
+2012-10-16 06:34:00 Debug: permission: actionUrl-Groups/index
+2012-10-16 06:34:01 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 06:34:02 Debug: permission: actionUrl-Users/index
+2012-10-16 06:43:27 Debug: Could not send forgot password email to userid-1
+2012-10-16 06:46:05 Debug: Could not send verification email to userid-1
+2012-10-16 07:02:39 Debug: Could not send forgot password email to userid-1
+2012-10-16 07:02:39 Debug: Could not send forgot password email to userid-1
+2012-10-16 07:10:11 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 07:10:11 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 07:12:57 Debug: Could not send forgot password email to userid-1
+2012-10-16 07:16:31 Debug: Could not send forgot password email to userid-1
+2012-10-16 07:21:21 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 07:21:21 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 07:22:02 Debug: permission: actionUrl-Dashboards/index
+2012-10-16 07:22:18 Debug: Array
+(
+    [headers] => From: Sandip <ghadagesandip@gmail.com>
+To: ghadagesandip@gmail.com
+X-Mailer: CakePHP Email
+Date: Tue, 16 Oct 2012 07:22:17 -0400
+Message-ID: <507d4369245c4dc8b2bd0dc8792863f0@127.0.0.1>
+Subject: Sandip: Request to Reset Your Password
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+    [message] => Welcome Admin, let's help you get signed in
+
+You have requested to have your password reset on Sandip. Please click the
+link below to reset your password now :
+
+http://127.0.0.1/cake2.2bootstrap/activatePassword?ident=1&activate=deb3874343d38b0d0b6ddc6bf5772f72
+
+
+If above link does not work please copy and paste the URL link (above) into
+your browser address bar to get to the Page to reset password
+
+Choose a password you can remember and please keep it secure.
+
+Thanks,
+Sandip
+
+
+)
+
+2012-10-16 08:07:42 Debug: permission: actionUrl-users/dashboard
+2012-10-16 08:07:44 Debug: permission: actionUrl-departments/index
+2012-10-16 08:07:45 Debug: permission: actionUrl-posts/index

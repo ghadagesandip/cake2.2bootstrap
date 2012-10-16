@@ -24,7 +24,7 @@
 	<?php echo $this->Html->charset(); ?>
 	<title>
 
-		<?php echo $title_for_layout; ?>
+		Login
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 
@@ -36,6 +36,9 @@
 		echo $this->Html->css(array('bootstrap','bootstrap-responsive'));
 		echo $this->Html->script(array('jquery','jquery.validate','bootstrap.min'));
 	?>
+	<style type="text/css">
+	  #flashMessage{'text-color':red;}
+	</style>
 </head>
 <body>
 	  <div class="container">

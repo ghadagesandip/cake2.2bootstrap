@@ -1,0 +1,2 @@
+1350389303
+a:2:{i:0;b:0;s:3:"app";a:2:{s:7:"plugins";a:1:{i:0;s:8:"Usermgmt";}s:10:"Controller";a:8:{i:0;s:13:"AppController";i:1;s:20:"CategoriesController";i:2;s:20:"DashboardsController";i:3;s:21:"DepartmentsController";i:4;s:19:"GroupsControllerOld";i:5;s:15:"PagesController";i:6;s:15:"PostsController";i:7;s:18:"UsersControllerOld";}}}

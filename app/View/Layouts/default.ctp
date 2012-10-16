@@ -34,8 +34,16 @@
 		echo $this->fetch('script');
         
 		echo $this->Html->css(array('bootstrap','bootstrap-responsive'));
+
 		echo $this->Html->script(array('jquery','jquery.validate','bootstrap.min','bootstrap-dropdown','bootstrap-tooltip'));
+
+                echo $this->Html->css('/usermgmt/css/umstyle');
+
+
 	?>
+	<style type="text/css">
+	  #flashMessage{'text-color':red;}
+	</style>
 </head>
 
 <body>

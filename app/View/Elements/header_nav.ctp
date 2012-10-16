@@ -11,13 +11,13 @@
          <div class="nav-collapse collapse">
             <ul class="nav ">
               <li class="active">
-                 <?php echo $this->Html->link('Dashboard',array('controller' => 'Dashboards', 'action' => 'index'));?>
+                 <?php echo $this->Html->link('Dashboard',array('plugin'=>'usermgmt','controller' => 'users', 'action' => 'dashboard'));?>
               </li>
               <li class="">
-                <?php echo $this->Html->link('User Groups',array('controller' => 'Groups', 'action' => 'index'));?>
+                <?php echo $this->Html->link('Department',array('plugin'=>null,'controller' => 'departments', 'action' => 'index'));?>
               </li>
               <li class="">
-                <?php echo $this->Html->link('Users',array('controller' => 'Users', 'action' => 'index'));?>
+                <?php echo $this->Html->link('Posts',array('plugin'=>null,'controller' => 'posts', 'action' => 'index'));?>
               </li>
             </ul>
       </div>

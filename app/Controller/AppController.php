@@ -33,7 +33,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 	
-	  public $helpers = array('Session', 'Html', 'Form');
+  /*    public $helpers = array('Session', 'Html', 'Form');
       public $components = array(
             'Session','Cookie',
             'Auth' => array(
@@ -44,6 +44,19 @@ class AppController extends Controller {
 
     public function beforeFilter() {
         
+    }
+
+    */
+
+    var $helpers = array('Form', 'Html', 'Session', 'Js', 'Usermgmt.UserAuth');
+
+    public $components = array('Session','RequestHandler', 'Usermgmt.UserAuth');
+
+    function beforeFilter(){
+            $this->userAuth();
+    }
+    private function userAuth(){
+            $this->UserAuth->beforeFilter($this);
     }
 
 }
